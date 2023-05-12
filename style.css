@@ -27,7 +27,13 @@ body {
   box-shadow: 10px 12px 10px -7px rgba(0,0,0,0.69);
   transform: rotate(10deg);
 }
-
+@media screen and (max-width: 500px) {
+    .flex-container{
+        width: 180px;
+        height: 180px;
+    }
+}
+ 
 
 span {
   font-size:4rem;
